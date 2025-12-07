@@ -13,6 +13,7 @@ Example:
 ```python
 x = 10
 y = "Hello"
+
 Python automatically understands that:
 
 x is an integer
@@ -35,13 +36,16 @@ The type can change during execution (dynamic typing).
 Example:
 a = 5
 a = "Python"     # new type in same variable
-Rules for Naming Variables
-Rule	Example
-Must start with a letter or underscore	name, _age
-Cannot start with a digit	❌ 1var
-Can contain letters, digits, underscore	student_1
-Case-sensitive	age ≠ Age
-No spaces	❌ student name
+
+3. Rules for Naming Variables
+| Rule                                    | Example          |
+| --------------------------------------- | ---------------- |
+| Must start with a letter or underscore  | `name`, `_age`   |
+| Cannot start with a digit               | ❌ `1var`         |
+| Can contain letters, digits, underscore | `student_1`      |
+| Case-sensitive                          | `age` ≠ `Age`    |
+| No spaces                               | ❌ `student name` |
+
 
 Avoid using keywords such as:
 if, else, while, break, class, import, def
@@ -162,13 +166,15 @@ name = "Pankaj"
 # name[0] = "R"   # ❌ ERROR (immutable)
 
 11. Summary Table
-Type	Example	Mutable?
-int	10	No
-float	3.14	No
-bool	True	No
-str	"Hello"	No
-list	[1,2,3]	Yes
-dict	{"a":1}	Yes
+| Type  | Example | Mutable? |
+| ----- | ------- | -------- |
+| int   | 10      | No       |
+| float | 3.14    | No       |
+| bool  | True    | No       |
+| str   | "Hello" | No       |
+| list  | [1,2,3] | Yes      |
+| dict  | {"a":1} | Yes      |
+
 12. Real-World Uses
 
 Variables store sensor data in IoT
