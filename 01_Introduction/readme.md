@@ -9,3 +9,4 @@ In this module you will learn:
 - Basic syntax and print statements
 
 Use this module as the starting foundation before moving to Variables, Loops, or Functions.
+
